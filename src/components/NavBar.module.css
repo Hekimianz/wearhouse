@@ -1,0 +1,55 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ccd5ae;
+  height: 116px;
+  padding: 24px 81px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.logo {
+  height: 100%;
+  cursor: pointer;
+  transition: 0.2s all;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.logo:active {
+  transform: scale(1);
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  color: #732c32;
+  transition: 0.2s all;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cartCount {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: #732c32;
+  border-radius: 50%;
+  padding: 0 8px;
+  font-weight: 900;
+  font-size: 18px;
+  border: 2px solid #fff;
+  color: #fff;
+}
