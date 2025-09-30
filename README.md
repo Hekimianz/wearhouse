@@ -38,6 +38,6 @@ This app is not meant to be production-ready, but rather a learning sandbox to:
 
 ---
 
-## 📐 Wirefrime design
+## 📐 Wireframe design
 
 ![image](wireframe.png)
