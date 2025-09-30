@@ -37,3 +37,7 @@ This app is not meant to be production-ready, but rather a learning sandbox to:
 - Experiment with localStorage persistence.
 
 ---
+
+## 📐 Wirefrime design
+
+![image](wireframe.png)
