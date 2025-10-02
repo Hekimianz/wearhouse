@@ -1,6 +1,8 @@
 .productCont {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 100%;
   padding-left: 73px;
   padding-top: 144px;
 }
@@ -8,7 +10,7 @@
 .info {
   margin-left: 32px;
   display: flex;
-  height: 352px;
+  gap: 60px;
   flex-direction: column;
   max-width: 500px;
   justify-content: space-between;
@@ -41,7 +43,6 @@
 }
 
 .btn:hover {
-  background-color: #732c32;
   color: #fefae0;
 }
 
